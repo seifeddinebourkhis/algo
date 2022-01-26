@@ -1,0 +1,25 @@
+ALGORITHM 
+VAR
+phrase : STRING;
+word ,voy : CHAR;
+i,numb,j: INTEGER;
+BEGIN
+ write phrase
+ numb := 0
+ voy := "aeiouy"
+ read word
+ lenght:= word
+ read phrase
+ FOR i FROM i:=1 TO lenght phrase STEP step  DO
+     IF (phrase,i,1)= THEN
+         numb = numb + 1
+         IF find (voy,mid(phrase,i,1))<>0 THEN
+         numb = numb + 1
+         END_IF
+     END_IF
+ END_FOR
+ Write ("this word count ", Numb, " lenght")
+ write  ("this phrase count ", Nb, " words")
+ write  ("this phrase ", Nb, " voy")
+
+END
