@@ -1,0 +1,28 @@
+ALGORITHM 
+VAR
+phrase : STRING;
+i,k,j: INTEGER;
+voy: array of CHAR [6];
+BEGIN
+ read (phrase)
+
+ 
+ FOR i from 0 TO lenght (phrase)-1  DO then
+         i = i + 1
+ END_FOR
+ FOR j from 0 TO lenght (phrase)-1 DO then
+  if  (phrase) [j]= " " then
+        j = j + 1 
+        END_FOR
+  end_if   
+ END_FOR
+ FOR k from 0 TO lenght (phrase)-1 DO then
+  if (phrase) [k]in voy then
+        k = k + 1
+   end_if
+  END_FOR   
+  Write (i ) ;  
+ Write (j ) ;
+ write  ( k) ;
+
+END
