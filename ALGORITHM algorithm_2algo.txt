@@ -1,0 +1,23 @@
+ALGORITHM algorithm_2
+VAR
+    tab 1, tab 2 : ARRAY_OF INTEGER[length]; 
+    sum , i , j , n : INTEGER
+BEGIN
+    sum = 0
+    FOR i FROM 0 TO tab 1.length -1 STEP 1  DO
+    FOR j FROM 0 TO tab 2.length -1 STEP 1  DO
+        IF tab1[i] <> tab2 [j] THEN
+            sum = sum + tab1 [i]
+        END_IF
+    END_FOR
+    END_FOR
+     FOR i FROM 0 TO tab 1.length -1 STEP 1  DO
+    FOR j FROM 0 TO tab 2.length -1 STEP 1  DO
+        IF tab2[j] <> tab1 [i] THEN
+            sum = sum + tab2 [j]
+        END_IF
+    END_FOR
+    END_FOR
+    write (sum)
+   
+END

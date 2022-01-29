@@ -1,0 +1,20 @@
+ALGORITHM algo2
+VAR
+    tab 1, tab 2 :HASH_TABLE< INTEGER, INTEGER>
+    sum , i : INTEGER
+BEGIN
+    sum = 0
+    FOR i FROM 0 TO tab 1. lenght -1 STEP 1  DO
+        IF tab 2. look up (tab 1[i]=true) THEN
+            sum = sum + tab 1 [i]
+        END_IF
+    END_FOR
+    FOR i FROM 0 TO set.length -1 STEP 1  DO
+       if (set 2 . lookup(set1[i]) =true) THEN
+        sum=sum+set1[i];
+       END_IF
+   END_FOR
+   WRITE (sum)
+    
+
+END
