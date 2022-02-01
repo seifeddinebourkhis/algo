@@ -1,0 +1,25 @@
+PROCEDURE dot_product(calculate_ps,float)
+VAR
+    v1 v2 : array_name : ARRAY_OF FLOAT; INTEGER
+    ps : FLOAT
+BEGIN
+    ps :=0
+    FOR i FROM 0 TO v1.lenght STEP 1  DO
+          ps := ps +(v1[i] * v2[i]);
+    END_FOR
+    WRITE (ps);
+END
+ALGORITHM dot product
+VAR
+    ps :FLOAT;
+    v1,v2:ARRAY_OF FLOAT [10]
+BEGIN
+ps:=dot_product (v1,v2,ps)
+     IF (ps=0) THEN
+         write ("the two vector ortho")
+         ELSE
+         write ("the two vector is not ortho")
+         
+     END_IF
+    
+END
